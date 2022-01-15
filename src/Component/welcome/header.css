@@ -1,0 +1,58 @@
+.header{
+    
+    background: url(../welcome/header.png) no-repeat fixed;
+    background-size: 100% 70%;
+    width: 100%;
+    height: 70%;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 100px;
+
+}
+.header .h1{
+    color: white;
+}
+
+.btn-get-started{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #000000;
+    text-decoration: none;
+    background-color: white;
+  }
+
+  .hcontainer .btn-get-started:hover{
+    background-color: #3498db;
+    color: #fff;
+  }
+ .text h1, p{
+     color: white;
+ }
+
+  .hcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+
+    max-width: 70%;
+    max-height: 30%;
+  }
+  .image {
+    margin-top: 20px;
+    margin-left: 70px;
+    flex-basis: 40%
+  }
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    margin-top: 40px;
+    margin-left: 80px;
+  }

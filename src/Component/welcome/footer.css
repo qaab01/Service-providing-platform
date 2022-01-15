@@ -1,0 +1,32 @@
+.fheader{
+    
+    background-image: url(../welcome/pictures/footer2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.fcontainer {
+    padding-top: 8%;
+    position: relative;
+    padding-bottom: 2%;
+}
+.fheader .fcontainer h1, p{
+    color: white;
+}
+.fheader .fcontainer .left{
+    margin-left: 10%;
+    width: 40%;
+}
+.fheader .fcontainer .right{
+    position: absolute;
+    right: 0;
+    top: 40%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
