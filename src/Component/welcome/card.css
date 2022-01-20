@@ -4,8 +4,10 @@
 .cardContent p{
     color: black;
     font-weight: bold;
+    margin-top: 10%;
 }
 .cardContent{
+    align-items: center;
     text-align: center;
     margin-right: 50px;
     width: 300px;
@@ -14,4 +16,46 @@
 .cardContent .img{
     border: 2px solid gray;
     border-radius: 40px;
+    overflow: hidden;
+    width: 85%;
+    height: 80%;
+    margin: 0 auto;
+}
+.cardContent .img .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    transition: 1s;
+}
+.cardContent .img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover, .img7:hover, .img8:hover, .img9:hover{
+    transform: scale(1.2);
+}
+.cardContent .img1{
+    background-image: url(../welcome/pictures/search.jpeg);
+}
+.cardContent .img2{
+    background-image: url(../welcome/pictures/stats.png);
+}
+.cardContent .img3{
+    background-image: url(../welcome/pictures/msg.png);
+}
+.cardContent .img4{
+    background-image: url(../welcome/pictures/work.png);
+}
+.cardContent .img5{
+    background-image: url(../welcome/pictures/join.jpg);
+}
+.cardContent .img6{
+    background-image: url(../welcome/pictures/learn.jpg);
+}
+.cardContent .img7{
+    background-image: url(../welcome/pictures/write.jpg);
+}
+.cardContent .img8{
+    background-image: url(../welcome/pictures/course.png);
+}
+.cardContent .img9{
+    background-image: url(../welcome/pictures/congrats.png);
 }

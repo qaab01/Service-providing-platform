@@ -1,0 +1,9 @@
+.navbar .navbar-brand{
+    margin-left: 8%;
+}
+.navbar{
+    background-color: #424d83;
+}
+.navbar .collapse .navbar-nav{
+    margin-left: 88%;
+}

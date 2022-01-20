@@ -1,15 +1,13 @@
+.main{
+    text-align: center;
+    margin-bottom: 1%;
+}
 .content h1{
     margin: auto auto;
 }
 .heading {
-    width: 50%;
-    margin: 0 auto;
-    padding: 20px;
-    margin-bottom: 20px;
-    background: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center
+    margin-top: 5%;
+    width: 76%;
 }
 .containerCards{
     display: flex;
@@ -17,28 +15,4 @@
     justify-content: center;
     margin-bottom: 40px;
     padding-top: 40px;
-}
-.containerCards2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 40px;
-    padding-top: 40px;
-    
-}
-.containerCardsHeading{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 40px;
-    
-}
-.containerCardsHeading .heading {
-    width: 50%;
-    margin: 0 auto;
-    
-    display: flex;
-    padding-top: 40px;
-    align-items: center;
-    justify-content: center
 }

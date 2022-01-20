@@ -1,0 +1,61 @@
+.container .row .container .row{
+    margin-bottom: 15%;
+}
+.container{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.container .row .container .row .btn{
+    background-color: #424d83;
+    width: 80%;
+    border-radius: 8px;
+}
+.container .row .container .row .btn:hover{
+    background-color: #5e71d3;
+}
+.container .row .img{
+    background-image: url(../profileDataInput/pictures/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 55%;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    padding-top: 10%;
+    text-align: center;
+}
+.container .row .shadow{
+    width: 100%;
+    padding:22px;
+}
+.container .row .bold{
+    font-weight: bold;
+}
+.container .row p{
+    color: black;
+}
+.container .row .shadow .btn{
+
+   align-self: flex-end;
+   align-self: baseline;
+   width: fit-content;
+   background-color: #424d83;
+   border-radius: 30px;
+}
+.container .row .shadow .btn:hover{
+    background-color: #5e71d3;
+ }
+ .container .row .shadow .button{
+     text-align: right;
+ }
+ .heading{
+    background-color: #424d83;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+ }
+ .heading h5{
+     color:white;
+ }

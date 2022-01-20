@@ -1,22 +1,20 @@
 import React from 'react';
-import image2 from "./pictures/build.png";
-import image3 from "./pictures/join.jpg"
-import image4 from "./pictures/learn.jpg"
 import Cards from "./Cards"
 import "./cardCom.css"
 const ThirdLine =(props)=>{
     return(
       <>
-      <div>
-            <div className="heading">
-                <h1>A community where you can find contractors, designers and companies</h1>
+            <div className="main">
+              <div className="heading col-7 mx-auto">
+                  <h1>A way to Learn and Excel your Skills</h1>
+              </div>
             </div>
             <div className="containerCards">
-                <Cards image2={image2} line="BUILD A COMMUNITY" />
-                <Cards image2={image3} line="JOIN THE COMMUNITY"/>
-                <Cards image2={image4} line="LEARNING IN THE COMMUNITY" />
+                <Cards class="img7" line="BUILD A COMMUNITY" />
+                <Cards class="img8" line="JOIN THE COMMUNITY"/>
+                <Cards class="img9" line="LEARNING IN THE COMMUNITY" />
             </div>
-        </div>
+        
       </>
     )
   }
