@@ -46,13 +46,12 @@
     max-height: 30%;
   }
   .image {
-    margin-top: 20px;
     margin-left: 70px;
     flex-basis: 40%
   }
   .text {
     font-size: 20px;
     padding-left: 20px;
-    margin-top: 40px;
+
     margin-left: 80px;
   }

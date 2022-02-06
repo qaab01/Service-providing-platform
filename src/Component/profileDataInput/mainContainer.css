@@ -1,15 +1,15 @@
-.container .row .container .row{
+.container .row .container .but{
     margin-bottom: 15%;
 }
 .container{
     margin-top: 3%;
     margin-bottom: 3%;
 }
-.container .row .container .row .btn{
+.container .row .container .but .btn{
     background-color: #424d83;
     width: 80%;
     border-radius: 8px;
 }
-.container .row .container .row .btn:hover{
+.container .row .container .but .btn:hover{
     background-color: #5e71d3;
 }

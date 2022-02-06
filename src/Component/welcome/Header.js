@@ -19,7 +19,7 @@ render(){
                         Google has many special<br/> features to help you find exactly what you use <br/>and pay for.
                     </p>
                     <div className="mt-3">
-                        <NavLink to="/" className="btn-get-started">Get Started</NavLink>
+                        <NavLink to="/home" className="btn-get-started">Get Started</NavLink>
                     </div>
                     <br/><br/><br/>
                 </div>

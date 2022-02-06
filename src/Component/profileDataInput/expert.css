@@ -1,0 +1,58 @@
+.expert .row .container .line{
+    margin-top: 2%;
+}
+.expert{
+    margin-bottom: 3%;
+}
+.expert .shadow{
+    width: 100%;
+    padding:22px;
+}
+.expert p{
+    color: black;
+}
+.expert .row .container{
+    padding-top: 3%;
+}
+ .expert .shadow .btn:hover{
+    background-color: #5e71d3;
+ }
+ .expert .heading{
+    background-color: #424d83;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+ }
+ .expert .heading h5{
+     color:white;
+ }
+ .expert .shadow{
+     width: 100%;
+ }
+ .expert #quantity{
+     width: 9%;
+     margin-left: 80%;
+ }
+ .expert .line{
+     margin-bottom: 10px;
+ }
+ .expert .shadow .btn{
+    margin-bottom: 2%;
+}
+.container{
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.expert .shadow .button .btn{
+    background-color: #424d83;
+    align-self: baseline;
+    align-self: flex-end;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+.expert .shadow .btn:hover{
+    background-color: #5e71d3;
+}
+ 

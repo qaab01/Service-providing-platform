@@ -6,7 +6,7 @@ class Navbar extends Component {
 render(){
     return(
             <nav className="navbar navbar-dark navbar-expand-sm">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="/home">
                     <h3>4M</h3>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-4" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

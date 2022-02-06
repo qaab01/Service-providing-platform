@@ -10,12 +10,11 @@ import Portfolio from "./Portfolio";
 import Location from "./Location";
 import Rate from "./Rate";
 
-class MainContainer extends Component {    
+class SideBar extends Component {    
 render(){
     return(
         <>
-            <div className="container">
-                <div className="row mx-auto">
+            
                     <div className="container col-2">
                         <div className="row but">
                             <button onClick={()=>Navigate("/category")} type="button" className="btn btn-primary">Category</button>
@@ -40,12 +39,10 @@ render(){
                             <button  type="button" className="btn btn-primary">Phone Number</button>
                         </div>
                     </div>
-                    <Default/>
-                </div>
-            </div>
+                
             
         </>
     );
 }
 }
-export default MainContainer;
+export default SideBar;

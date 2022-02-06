@@ -1,5 +1,6 @@
 import React from 'react';
 import SearchIcon from '@mui/icons-material/Search';
+import { NavLink } from 'react-router-dom';
 import "./homeheader.css";
 const Header =(props)=>{
     return(
@@ -30,7 +31,7 @@ const Header =(props)=>{
               </div>
               <div className="row d-flex justify-content-center">
                 <div className="col-1">
-                  <button class="btn-search" type="button"> <SearchIcon/> Search</button>
+                  <NavLink to="/default" className="btn btn-primary Con">Search</NavLink>
                 </div>
               </div>
             </div>
